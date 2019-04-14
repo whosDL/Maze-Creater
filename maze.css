@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  background-color: #fff;
+}
+
+.maze-line {
+  line-height: 0;
+  font-size: 0;
+}
+
+.maze-cell {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.close-top {
+  border-top: 1px solid transparent;
+}
+
+.close-bottom {
+  border-bottom: 1px solid transparent;
+}
+
+.close-left {
+  border-left: 1px solid transparent;
+}
+
+.close-right {
+  border-right: 1px solid transparent;
+}
